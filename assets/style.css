@@ -4,11 +4,11 @@
 }
 
 body {
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Sans-serif;
 }
 
 header {
-    padding: 15px 35px 0 35px;
+    padding: 20px 35px 20px 35px;
     background-color: #fff;
 }
 
@@ -16,8 +16,8 @@ header h1 {
     font-weight: lighter;
     font-size: 36px;
     color: black;
-    margin: 0;
-    display: inline;
+    margin: 0 0 50px 0;
+    text-align: center;
 }
 
 header a {
@@ -26,8 +26,8 @@ header a {
 }
 
 header nav {
-    margin: 7px 0;
-    float: right;
+    margin: 20px 0;
+    text-align: center;
 }
 
 header nav ul {
@@ -39,8 +39,9 @@ header nav ul li {
 }
 
 header nav ul li a {
-    margin: 0 35px;
+    margin: 0 50px;
     font-weight: lighter;
+    font-size: 16px
 }
 
 .about-me {
@@ -57,14 +58,35 @@ header nav ul li a {
     width: 40%;
     text-align: center;
     padding: 100px 0 20px 50px;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .about-me p {
-    color: black;
+    color:black;
     text-align: left;
     text-align: justify;
+    font-weight: lighter;
     width: 40%;
-    font-size: 20px;
+    font-size: 16px;
     padding: 0 0 30px 50px;
-    text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+.portfolio, .contact, header {
+    text-align: center;
+}
+.portfolio h2, .contact h2, header h1{
+    font-weight: lighter;
+    font-size: 30px;
+    margin-bottom: 35px;
+    padding: 25px 100px 20px 100px;
+    border-bottom: 2px solid;
+    border-color: black;
+    display: inline-block;
+}
+.run-buddy a {
+    display: inline-block;
+}
+.run-buddy img {
+    height: 175px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
