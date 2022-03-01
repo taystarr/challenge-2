@@ -1,8 +1,50 @@
-body {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+* {
+    margin: 0;
+    padding: 0;
 }
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+header {
+    padding: 15px 35px 0 35px;
+    background-color: #fff;
+}
+
+header h1 {
+    font-weight: lighter;
+    font-size: 36px;
+    color: black;
+    margin: 0;
+    display: inline;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+header nav {
+    margin: 7px 0;
+    float: right;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    margin: 0 35px;
+    font-weight: lighter;
+}
+
 .about-me {
-    background-image: url(./images/portfoliopic.jpeg);
+    background-image: url(./images/portfoliopic.jpg);
     background-size: cover;
     background-position: center;
     height: 700px;
@@ -10,8 +52,12 @@ body {
 }
 .about-me h2 {
     color: black;
-    font-size: 40px;
-    padding: 50px 0 20px 50px;
+    font-size: 30px;
+    font-weight: lighter;
+    width: 40%;
+    text-align: center;
+    padding: 100px 0 20px 50px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .about-me p {
     color: black;
@@ -20,4 +66,5 @@ body {
     width: 40%;
     font-size: 20px;
     padding: 0 0 30px 50px;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
