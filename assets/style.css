@@ -51,6 +51,7 @@ header nav ul li a {
     height: 700px;
     width: fit-content;
 }
+
 .about-me h2 {
     color: black;
     font-size: 30px;
@@ -59,6 +60,7 @@ header nav ul li a {
     text-align: center;
     padding: 100px 0 20px 50px;
 }
+
 .about-me p {
     color:black;
     text-align: left;
@@ -68,9 +70,11 @@ header nav ul li a {
     font-size: 16px;
     padding: 0 0 30px 50px;
 }
+
 .portfolio, .contact, header {
     text-align: center;
 }
+
 .portfolio h2, .contact h2, header h1{
     font-weight: lighter;
     font-size: 30px;
@@ -80,9 +84,11 @@ header nav ul li a {
     border-color: black;
     display: inline-block;
 }
+
 .run-buddy a {
     display: inline-block;
 }
+
 .run-buddy img {
     height: 175px;
     width: auto;
