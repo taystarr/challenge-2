@@ -112,8 +112,8 @@ header nav ul li a {
     text-decoration: none;
 }
 @media screen and (max-width: 980px) {
-    body {
-        width: fit-content;
+    header {
+        width: 100%;
     }
     .about-me h2 {
         text-align: center;
