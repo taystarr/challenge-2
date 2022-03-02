@@ -2,7 +2,7 @@
 
 ## Motivation
 
-My motivation for creating htis page was to be able to have an online portfolio that future employers could access to learn about me and my projects.
+My motivation for creating this page was to be able to have an online portfolio that future employers could access to learn about me and my projects.
 This page will also showcase my abilities to code my own website and demonstrate my code neatness.
 
 ## Problems
