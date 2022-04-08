@@ -97,9 +97,13 @@ header nav ul li a {
     margin-right: auto;
     border-radius: 8px;
 }
+.image {
+    border-radius: 8px;
+    box-shadow: 2px 2px 6px #524f4f;
+}
 .column-1, .column-2 {
     flex: 50%;
-    padding: 0 4px;
+    padding: 10px;
 }
 .column-1 img, .column-2 img {
     margin-top: 8px;
